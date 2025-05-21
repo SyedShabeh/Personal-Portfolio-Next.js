@@ -14,7 +14,7 @@ const Typewriter = () => {
   const erasingSpeed = 100;
   const delayBetweenWords = 1500;
 
-  const getCommonPrefixLength = (a, b) => {
+  const getCommonPrefixLength = (a:string, b:string) => {
     let i = 0;
     while (i < a.length && i < b.length && a[i] === b[i]) {
       i++;
@@ -27,7 +27,7 @@ const Typewriter = () => {
     const nextWord = words[(wordIndex + 1) % words.length];
     const commonPrefixLength = getCommonPrefixLength(currentWord, nextWord);
 
-    let timeout;
+    let timeout: ReturnType<typeof setTimeout>
 
     if (isDeleting) {
       timeout = setTimeout(() => {
