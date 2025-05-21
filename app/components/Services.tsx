@@ -7,8 +7,8 @@ export default function Services() {
     <div id="services" className="pt-10">
       <div className="section-3 bg-light pt-20">
         <div className="container mx-auto text-center pt-10">
-          <span className="banner-3 bg-light text-primary px-2 py-1 font-bold">What I Do?</span>
-          <p className="main-font text-4xl font-bold">How I can help your next project</p>
+          <span className="banner-3 bg-white text-blue-500 px-2 py-1 font-bold">What I Do?</span>
+          <p className="main-font text-4xl font-bold mt-3">How I can help your next project</p>
         </div>
 
         <div className="container mx-auto py-12">

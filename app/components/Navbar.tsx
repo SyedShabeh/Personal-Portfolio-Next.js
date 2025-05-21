@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import ThemeToggle from "./ThemeToggle";
+import Link from "next/link";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,13 +25,13 @@ export default function Navbar() {
 
         {/* Desktop Nav Links */}
         <ul className="hidden lg:flex space-x-6 font-bold items-center mx-auto">
-          <li><a className="nav-link active text-primary" href="#home">HOME</a></li>
-          <li><a className="mode nav-link" href="#about">ABOUT</a></li>
-          <li><a className="mode nav-link" href="#services">SERVICES</a></li>
-          <li><a className="mode nav-link" href="#resume">RESUME</a></li>
-          <li><a className="mode nav-link" href="#faq">FAQ</a></li>
-          <li><a className="mode nav-link" href="#portfolio">PORTFOLIO</a></li>
-          <li><a className="mode nav-link" href="#contact">CONTACT</a></li>
+          <Link href="#home" className="nav-link active text-primary" >HOME</Link>
+          <Link href="#about" className="mode nav-link">ABOUT</Link>
+          <Link href="#services" className="mode nav-link">SERVICES</Link>
+          <Link href="#resume" className="mode nav-link">RESUME</Link>
+          <Link href="#faq" className="mode nav-link">FAQ</Link>
+          <Link href="#portfolio" className="mode nav-link" >PORTFOLIO</Link>
+          <Link href="#contact" className="mode nav-link">CONTACT</Link>
         </ul>
 
         {/* Right Side (Theme + Social Icons + Toggler) */}
@@ -65,13 +66,13 @@ export default function Navbar() {
       {isOpen && (
         <div className="lg:hidden px-4 pb-4">
           <ul className="flex flex-col gap-3 font-bold">
-            <li><a className="nav-link text-primary" href="#home">HOME</a></li>
-            <li><a className="mode nav-link" href="#about">ABOUT</a></li>
-            <li><a className="mode nav-link" href="#services">SERVICES</a></li>
-            <li><a className="mode nav-link" href="#resume">RESUME</a></li>
-            <li><a className="mode nav-link" href="#faq">FAQ</a></li>
-            <li><a className="mode nav-link" href="#portfolio">PORTFOLIO</a></li>
-            <li><a className="mode nav-link" href="#contact">CONTACT</a></li>
+            <Link href="#home" className="nav-link text-primary" >HOME</Link>
+            <Link href="#about" className="mode nav-link" >ABOUT</Link>
+            <Link href="#services" className="mode nav-link" >SERVICES</Link>
+            <Link href="#resume" className="mode nav-link" >RESUME</Link>
+            <Link href="#faq" className="mode nav-link">FAQ</Link>
+            <Link  href="#portfolio" className="mode nav-link">PORTFOLIO</Link>
+            <Link  href="#contact" className="mode nav-link">CONTACT</Link>
           </ul>
         </div>
       )}

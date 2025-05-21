@@ -14,7 +14,7 @@ const faqData = [
   },
   {
     question: "What technologies do you use?",
-    answer: "I use HTML, CSS, JavaScript, Bootstrap, React and more.",
+    answer: "I use HTML, CSS, JavaScript, Bootstrap, React, Tailwind, Next and more.",
   },
   {
     question: "Do you offer post-launch support?",

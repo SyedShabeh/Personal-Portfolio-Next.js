@@ -8,7 +8,7 @@ export default function About() {
       <div id="section-2" className="pt-12 lg:pt-24">
         <div className="container mx-auto text-center pt-10">
           <span className="banner px-2 py-1">About Me</span>
-          <p className="main-font text-4xl font-bold">Know Me More</p>
+          <p className="main-font text-4xl font-bold mt-2">Know Me More</p>
         </div>
       </div>
 

@@ -9,7 +9,7 @@ export default function Resume() {
         {/* Header */}
         <div className="text-center">
           <span className="banner-2 px-2 py-1">Resume</span>
-          <p className="main-font text-4xl font-bold">A Summary of My Resume</p>
+          <p className="main-font text-4xl font-bold mt-2">A Summary of My Resume</p>
         </div>
 
         {/* Education & Experience */}
@@ -89,7 +89,7 @@ export default function Resume() {
 
         {/* Download Button */}
         <div className="text-center pt-10">
-          <button className="border border-cyan-400 text-cyan-400 hover:bg-cyan-400 hover:text-white transition px-6 py-3">
+          <button className="border border-blue-400 text-blue-400 hover:bg-blue-400 cursor-pointer hover:text-white transition px-6 py-3">
             Download CV
           </button>
         </div>

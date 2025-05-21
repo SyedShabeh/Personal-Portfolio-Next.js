@@ -4,8 +4,8 @@ import React from "react";
 
 export default function Portfolio() {
   return (
-    <div className="portfolio pb-20">
-      <div id="portfolio" className="text-white max-w-7xl mx-auto py-10 px-4">
+    <div className="portfolio pb-20"  id="portfolio">
+      <div className="text-white max-w-7xl mx-auto py-10 px-4">
         {/* Section Header */}
         <div className="text-center mb-10">
           <span className="banner px-2 py-1">Portfolio</span>

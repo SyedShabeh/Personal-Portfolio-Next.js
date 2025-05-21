@@ -19,9 +19,7 @@ export default function Footer() {
             <p className="mode mb-0">
               Designed by{" "}
               <a
-                href="https://www.google.com"
-                target="_blank"
-                rel="noreferrer"
+                href="#home"
                 className="text-primary font-bold no-underline"
               >
                 SYED SHABEH

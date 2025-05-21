@@ -16,7 +16,7 @@ export default function Home() {
 
               <div className="mt-4 flex flex-col md:flex-row gap-3 justify-center md:justify-start items-center">
                 <a href="#portfolio">
-                  <button className="bg-white text-black py-2  px-4 rounded-md shadow">View My Works</button>
+                  <button className="bg-white text-black py-2  px-4 rounded-md shadow-xl cursor-pointer">View My Works</button>
                 </a>
                 <a href="#contact" className="text-white font-semibold underline">
                   Contact Me <i className="fa-regular fa-circle-down ms-1"></i>
