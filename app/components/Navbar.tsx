@@ -8,7 +8,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="navbar shadow-sm sticky top-0 z-50">
+    <nav className="navbar shadow-sm sticky top-0 z-50 bg-opacity-40 backdrop-blur-sm">
       <div className="container mx-auto flex items-center justify-between px-4 py-3">
         {/* Logo */}
         <h1 className="main-font mode font-bold text-2xl animate-left">

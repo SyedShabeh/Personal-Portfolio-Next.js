@@ -53,15 +53,7 @@ body.light-mode {
   z-index: -1;
 }
 
-.navbar {
-  background: transparent;
-}
-@supports (backdrop-filter: blur(10px)) {
-  .navbar {
-      backdrop-filter: blur(10px);
-      -webkit-backdrop-filter: blur(10px);
-  }
-}
+
 
 .nav-link{
   position: relative;
