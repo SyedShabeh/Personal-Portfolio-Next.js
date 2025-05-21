@@ -54,10 +54,13 @@ body.light-mode {
 }
 
 .navbar {
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-  width: 100%;
+  background: transparent;
+}
+@supports (backdrop-filter: blur(10px)) {
+  .navbar {
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+  }
 }
 
 .nav-link{
