@@ -1,6 +1,8 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import { MdDarkMode, MdLightMode } from "react-icons/md";
+
 
 const ThemeToggle = () => {
     const [isLight, setIsLight] = useState(false);
@@ -11,19 +13,36 @@ const ThemeToggle = () => {
 
     const toggleTheme = () => setIsLight(prev => !prev);
 
-    return (
-        <i
-            className={`fas ${isLight ? 'fa-moon' : 'fa-sun'}`}
+    return isLight ? (
+        <MdDarkMode 
             onClick={toggleTheme}
             style={{
                 fontSize: '1.5rem',
                 cursor: 'pointer',
-                color: isLight ? '#000' : '#fff',
-                userSelect: 'none'
+                color: '#000',
+                userSelect: 'none',
+                border: 'none',
+                outline: 'none',
             }}
-            aria-label="Toggle theme"
+            aria-label="Toggle dark mode"
             role="button"
             tabIndex={0}
+            onKeyDown={(e) => e.key === 'Enter' && toggleTheme()}
+        />
+    ) : (
+        <MdLightMode 
+            onClick={toggleTheme}
+            style={{
+                fontSize: '1.5rem',
+                cursor: 'pointer',
+                color: '#fff',
+                userSelect: 'none',
+                outline: 'none',
+            }}
+            aria-label="Toggle light mode"
+            role="button"
+            tabIndex={0}
+            onKeyDown={(e) => e.key === 'Enter' && toggleTheme()}
         />
     );
 };
