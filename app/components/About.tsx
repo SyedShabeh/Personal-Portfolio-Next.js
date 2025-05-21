@@ -42,7 +42,7 @@ export default function About() {
         </div>
 
         {/* Info Grid */}
-        <div className="grid md:grid-cols-2 grid-cols-2 lg:grid-cols-4 gap-5 mt-5 ml-20 md:ml-0">
+        <div className="grid md:grid-cols-2 grid-cols-2 lg:grid-cols-4 gap-5 mt-5 ml-10 md:ml-0">
           <div>
             <p className="mid-font mb-0">Name:</p>
             <p className="co-font font-bold mb-0">Syed Shabeh</p>

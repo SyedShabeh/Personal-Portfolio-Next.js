@@ -2,13 +2,13 @@ import Typewriter from "./Typewriter";
 export default function Home() {
   return (
     <section id="home" className="section-1 min-h-20">
-      <div className="container mx-auto px-4 md:py-80 py-40">
+      <div className="container mx-auto px-4 md:py-80 py-20">
         <div className="">
           <div className="flex flex-col-reverse md:flex-row items-center">
 
             <div className="w-full md:w-1/2 text-center md:text-left mb-12 md:mb-0 order-1 md:order-1">
               <h2 className="mid-font font-light text-4xl pt-2">HI, I&apos;M A FREELANCER</h2>
-              <h1 className="fw-bold text-6xl main-font font-bold">
+              <h1 className="fw-bold text-5xl main-font font-bold">
                 <Typewriter />
                 <span className="typing-cursor">|</span>
               </h1>
