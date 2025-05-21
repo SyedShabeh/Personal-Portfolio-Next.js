@@ -7,7 +7,7 @@ export default function Home() {
           <div className="flex flex-col-reverse md:flex-row items-center">
 
             <div className="w-full md:w-1/2 text-center md:text-left mb-12 md:mb-0 order-1 md:order-1">
-              <h2 className="mid-font font-light text-4xl pt-2">HI, I'M A FREELANCER</h2>
+              <h2 className="mid-font font-light text-4xl pt-2">HI, I&apos;M A FREELANCER</h2>
               <h1 className="fw-bold text-6xl main-font font-bold">
                 <Typewriter />
                 <span className="typing-cursor">|</span>

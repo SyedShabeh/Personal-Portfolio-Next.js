@@ -16,11 +16,11 @@ export default function About() {
         <div className="flex flex-col lg:flex-row w-full items-center">
           {/* Left Text */}
           <div className="order-1 text-center lg:text-left lg:order-1 w-full lg:w-2/3">
-            <h1 className="main-font text-3xl">Hi, I'm Syed Shabeh</h1>
+            <h1 className="main-font text-3xl">Hi, I&apos;m Syed Shabeh</h1>
             <p className="mid-font text-xl mt-4">
-              I'm a designer & developer with a passion for web design. I enjoy developing simple,
+              I&apos;m a designer & developer with a passion for web design. I enjoy developing simple,
               clean and slick websites that provide real value to the end user. Thousands of clients have procured exceptional
-              results while working with me. Delivering work within time and budget which meets client's
+              results while working with me. Delivering work within time and budget which meets client&apos;s
               requirements is our moto.
             </p>
           </div>

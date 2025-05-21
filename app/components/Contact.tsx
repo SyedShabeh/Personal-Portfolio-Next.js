@@ -9,7 +9,7 @@ export default function Contact() {
         <div className="grid lg:grid-cols-2 gap-12">
           {/* Contact Info Column */}
           <div>
-            <h1 className="main-font font-bold text-3xl md:text-4xl">Let's get in touch</h1>
+            <h1 className="main-font font-bold text-3xl md:text-4xl">Let&apos;s get in touch</h1>
             <p className="mid-font text-lg mt-8 mb-6">
               I enjoy discussing new projects and design challenges. Please share as much info as possible
               so we can get the most out of our first catch-up.
